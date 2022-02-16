@@ -2,16 +2,16 @@
 layout: single
 title:  "마크다운 사용법"
 ---
-
+  
+줄바꿈은 띄어쓰기 두번!  
 <!--Heading-->
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-
-Paragraph
+# Heading 1  
+## Heading 2  
+### Heading 3  
+#### Heading 4  
+##### Heading 5  
+###### Heading 6  
+Paragraph  
 <!--Line-->
 
 ---
