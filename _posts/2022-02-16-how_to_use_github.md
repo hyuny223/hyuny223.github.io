@@ -98,3 +98,16 @@ git clone -b <branch name> --single-branch <저장소 url>
 ex) git clone -b week1-3/chl --single-branch https://github.com/hyuny223/git_practice.git
 ```
 → url에 있는 저장소에 있는 특정 브랜치를 복사<br/><br/>
+
+```c++
+예시
+
+git add .
+git commit -m "first commit"
+git push origin main
+
+git checkout week1-1/chl
+git commit -m "another commit"
+git push origin week1-1/chl
+```
+→ main 브랜치와 week1-1/chl 브랜치에 push하는 예제<br/><br/>
