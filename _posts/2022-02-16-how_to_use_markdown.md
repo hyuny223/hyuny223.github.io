@@ -2,8 +2,13 @@
 layout: single
 title:  "마크다운 사용법"
 ---
-  
-줄바꿈은 띄어쓰기 두번!  
+<br/><br/>
+줄바꿈은 <>안에 br/
+<br/><br/>
+
+---
+
+<br/><br/>
 <!--Heading-->
 # Heading 1  
 ## Heading 2  
@@ -14,17 +19,29 @@ title:  "마크다운 사용법"
 Paragraph  
 <!--Line-->
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 <!--Text attributes-->
 This is the **bold** text and this is the *italic* text and let's do ~~strikethrought~~.
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 <!--Quote-->
 > Don't forget to code your dream.
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 <!--Bullet list-->
 Fruits:
@@ -34,19 +51,31 @@ Fruits:
 other:
 - orange
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 <!--Numberd list-->
 1. first
 2. second
 3. third
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 <!--Link-->
 Click [here](https://hyuny223.github.io)
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 <!--Image-->
 ![image description](../docs/assets/images/3953273590_704e3899d5_m.jpg)
@@ -55,7 +84,11 @@ Click [here](https://hyuny223.github.io)
 ![image description](https://user-images.githubusercontent.com/58837749/154258787-21eb1b64-91c0-46eb-97b0-383ae620236f.png)
 
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 <!--Table-->
 
@@ -65,14 +98,31 @@ Click [here](https://hyuny223.github.io)
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 <!--Code-->
 To print message in the console, use `print("your message")` and ..
 
+<br/><br/>
+
 ---
+
+<br/><br/>
 
 ```c++
 this is a code block
 use ``` for the block
 print("write your language")
 ```
+<br/><br/>
+
+---
+
+<br/><br/>
+```c++
+~/github_blog/hyuny223.github.io$ bundle exec jekyll serve
+```
+→ local host로 md가 실시간으로 변화하는 것을 살펴볼 수 있음. save 필요<br/><br/>
