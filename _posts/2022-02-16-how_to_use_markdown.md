@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "마크다운 사용법"
+categories: how_to_use
+tag: markdown
 ---
 <br/><br/>
 줄바꿈은 <>안에 br/

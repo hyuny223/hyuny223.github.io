@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "깃허브 사용법"
+categories: how_to_use
+tag: [github,command]
 ---
 <br/><br/>
 github 사용이 처음이라 생소한 점이 많다.<br/><br/>
