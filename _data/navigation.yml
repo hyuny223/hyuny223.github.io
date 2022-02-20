@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "menu"
+  - title: "Category"
     url: /categories/
   - title: "tag"
     url: /tag/
