@@ -1,8 +1,14 @@
 ---
-layout: single
-title:  "깃허브 사용법"
-categories: how_to_use
-tag: [github,command]
+title: "[Github 블로그] 깃허브 문법"
+categories: Blog
+tag: [Blog, category, github]
+
+toc: true
+toc_sticky: true
+toc_label : 목차
+ 
+date: 2022-02-16
+last_modified_at: 2022-02-21
 ---
 <br/><br/>
 github 사용이 처음이라 생소한 점이 많다.<br/><br/>
@@ -76,8 +82,8 @@ git branch -a
 → 모든 local, remote branch를 확인<br/><br/>
 
 ```c++
-git branch -d <브랜치 이름>
-ex) git branch -d sub01
+git branch -D <브랜치 이름>
+ex) git branch -D sub01
 ```
 → 해당 local 브랜치를 삭제<br/><br/>
 

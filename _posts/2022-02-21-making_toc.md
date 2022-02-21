@@ -37,4 +37,19 @@ toc_label : 목차
 "# 목차"를 사용하면 목차를 사용할 수 있다.<br>
 <br>
 
-# 마지막!
+# 추가
+---
+_includes/toc 파일에 보면 다음과 같이 나와있다.
+```html
+{% raw %}
+<aside class="sidebar__right">
+<nav class="toc" markdown="1">
+<header><h4 class="nav__title"><i class="fas fa-{{ include.icon | default: 'file-alt' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
+*  Auto generated table of contents
+{:toc .toc__menu}
+</nav>
+</aside>
+{% endraw %}
+```
+class가 sidebar__right로 되어있는 것을 볼 수 있다.<br>
+toc의 위치를 설정해주는 것이다.<br>
