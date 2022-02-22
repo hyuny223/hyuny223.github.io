@@ -13,6 +13,20 @@
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
 
+        <span class="nav__sub-title">devCourese</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Linux" %}
+                        <li><a href="/categories/devCourse/Linux" class="">리눅스(Linux)({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}  
+                
+                {% for category in site.categories %}
+                    {% if category[0] == "ROS" %}
+                        <li><a href="/categories/devCourse/ROS" class="">ROS(melodic)({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+
         <span class="nav__sub-title">C++</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -25,21 +39,6 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Coding Test</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
 
         <span class="nav__sub-title">Github.io</span>
             <ul>
