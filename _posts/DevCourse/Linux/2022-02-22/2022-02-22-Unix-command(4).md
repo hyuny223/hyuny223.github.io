@@ -139,7 +139,7 @@ last_modified_at: 2022-02-22
     - compress : ncompress 패키지에 포함됨
       + 유닉스의 오래된 압축 유틸리티(사용 X)
   * zstd
-    - zstd [OPTIONS] [-|input-file] [-o output-file]
+    - zstd [OPTIONS] [-\|input-file] [-o output-file]
       + 옵션은 xz와 동일 (멀티스레드 옵션까지)
       + 추가옵션
         * -# : compression level [1-19] (default: 3)
