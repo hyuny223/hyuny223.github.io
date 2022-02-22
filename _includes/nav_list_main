@@ -47,7 +47,7 @@
                     {% if category[0] == "Blog" %}
                         <li><a href="/categories/blog" class="">블로그 사용법({{category[1].size}})</a></li>
                     {% endif %}
-                {% endfor %}
+                {% endfor %}  
                 
                 {% for category in site.categories %}
                     {% if category[0] == "Ubuntu" %}

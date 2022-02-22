@@ -1,5 +1,5 @@
 ---
-title: "내 우분투 세팅1"
+title: "나의 우분투 세팅"
 layout: archive
 permalink: categories/ubuntu
 author_profile: true
