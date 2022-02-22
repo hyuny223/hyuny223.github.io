@@ -1,11 +1,11 @@
 ---
-title: "C++ 프로그래밍"
+title: "Linux"
 layout: archive
-permalink: categories/cpp
+permalink: categories/devCourse/Linux
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Cpp %}
+{% assign posts = site.categories.devCourse.Linux %}
 {% for post in posts %} {% include archive-category.html type=page.entries_layout %} {% endfor %}
