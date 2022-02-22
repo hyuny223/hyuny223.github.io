@@ -48,6 +48,12 @@
                         <li><a href="/categories/blog" class="">블로그 사용법({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+                
+                {% for category in site.categories %}
+                    {% if category[0] == "Ubuntu" %}
+                        <li><a href="/categories/ubuntu" class="">나의 우분투 셋팅({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
 
       </li>
