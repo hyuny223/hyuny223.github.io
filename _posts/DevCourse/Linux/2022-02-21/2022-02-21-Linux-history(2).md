@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day1] 리눅스 역사(1)"
+title: "[Linux Day1] 리눅스 역사(2)"
 categories: Linux
 tag: [Linux]
 
@@ -8,9 +8,6 @@ toc_sticky: true
 toc_label : 목차
 
  
-date: 2022-02-22
+date: 2022-02-21
 last_modified_at: 2022-02-22
 ---
-<br>
-<br>
-pass
