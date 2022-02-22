@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.devCourse.Linux %}
+{% assign posts = site.categories.Linux %}
 {% for post in posts %} {% include archive-category.html type=page.entries_layout %} {% endfor %}

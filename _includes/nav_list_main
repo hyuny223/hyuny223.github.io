@@ -17,13 +17,13 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Linux" %}
-                        <li><a href="/categories/devCourse/Linux" class="">리눅스(Linux)({{category[1].size}})</a></li>
+                        <li><a href="/categories/devCourse/Linux" class="">리눅스(Linux) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}  
                 
                 {% for category in site.categories %}
                     {% if category[0] == "ROS" %}
-                        <li><a href="/categories/devCourse/ROS" class="">ROS(melodic)({{category[1].size}})</a></li>
+                        <li><a href="/categories/devCourse/ROS" class="">ROS(melodic) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
 
@@ -32,9 +32,9 @@
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
+                {% for category in site.categories.language %}
                     {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/language/cpp" class="">C ++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -44,17 +44,16 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">블로그 사용법({{category[1].size}})</a></li>
+                        <li><a href="/categories/blog" class="">블로그 사용법 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}  
                 
                 {% for category in site.categories %}
                     {% if category[0] == "Ubuntu" %}
-                        <li><a href="/categories/ubuntu" class="">나의 우분투 셋팅({{category[1].size}})</a></li>
+                        <li><a href="/categories/ubuntu" class="">나의 우분투 셋팅 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-
       </li>
   </ul>
 </nav>

@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.language.Cpp %}
+{% assign posts = site.categories.Cpp %}
 {% for post in posts %} {% include archive-category.html type=page.entries_layout %} {% endfor %}
