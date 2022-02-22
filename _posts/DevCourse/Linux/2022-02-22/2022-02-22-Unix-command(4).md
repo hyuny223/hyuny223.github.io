@@ -35,6 +35,7 @@ last_modified_at: 2022-02-22
       +  복수채널 → 동일파일 가능
       +  먼저 반납된 file을 후에 할당된 file channel이 연결 가능
 <br>
+
 2. pipe, redirection
   * pipe
     - 프로세스 사이에 통신으로 사용
@@ -82,7 +83,7 @@ last_modified_at: 2022-02-22
 
 # 2. archiving and compression
 ---
-0. archive, compress
+①  archive, compress
   * UNIX는 archive, compress이 분리되어 있음
   * 아카이브 유틸 : tar(tape archive), cipo
     - archive → 단순히 파일을 묶는 작업
@@ -90,7 +91,7 @@ last_modified_at: 2022-02-22
   * 압축 유틸 : gzip, bzip2, xz, zstd, lz4
     - 압축, 압축해제
     - 압축률은 xz > bzip2, zstd > gzip > lz4
-1. 아카이빙 : tar
+②  아카이빙 : tar
   * tar [ctxv] [f archive-file] files...
     - c(create) : 아카이브를 생성
     - t(test) : 아카이브를 테스트
@@ -105,18 +106,20 @@ last_modified_at: 2022-02-22
     // create file arc_c.tar ← *.c를 아카이빙
     // 이 두 명령은 동일한 결과물을 생성
     ```
-<br>
 
-2. gzip, xz, bzip2, zstd
-  * 압축 프로그램의 발전<br>
-|프로그램|확장자|설명|
-|---|---|---|
-|compress|Z|초기 유닉스에서나 쓰임|
-|gzip|gz|GNU에서 만든 zip|
-|bzip2|bz2|과거에 텍스트 압축에 유리|
-|xz|xz|텍스트 압축에 압도적으로 강하나, 느리다|
-|lz4|lz4|빠르고 무난한 성능(zstd로 인해 입지 약해짐)|
-|zstd|zst|멀티스레드 지원, 빠르고 중상의 압축률|
+<br>
+③  gzip, xz, bzip2, zstd
+  * 압축 프로그램의 발전
+
+  | 프로그램 | 확장자 | 설명 |
+  |---|---|---|
+  | compress | Z | 초기 유닉스에서나 쓰임 |
+  | gzip | gz | GNU에서 만든 zip |
+  | bzip2 | bz2 | 과거에 텍스트 압축에 유리 |
+  | xz | xz | 텍스트 압축에 압도적으로 강하나, 느리다 |
+  | lz4 | lz4 | 빠르고 무난한 성능(zstd로 인해 입지 약해짐) |
+  | zstd | zst | 멀티스레드 지원, 빠르고 중상의 압축률 |
+
   * compress, gzip, bz2, zip → xz, zstd
   * gzip
     - gzip [-cdflrv] <file ...>
