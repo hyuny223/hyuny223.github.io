@@ -33,7 +33,7 @@ last_modified_at: 2022-02-23
   * ps : full-format
 ![Screenshot from 2022-02-23 09-02-30](https://user-images.githubusercontent.com/58837749/155240447-ba834887-1e8b-4eaa-936e-378697aef4c4.png)
     - UID : 해당 프로세스의 소유권자 ID (User ID)
-      + 숫자인 경우에는 UID, 심볼인 경우에는 Username 
+      + 숫자인 경우에는 UID, 심볼인 경우에는 Username
     - PID : 프로세스 ID
     - PPID : 부모 프로세스 ID (Parent PID)
     - C : CPU 사용량
@@ -41,7 +41,6 @@ last_modified_at: 2022-02-23
     - TTY : terminal ID
     - TIME : CPU 시간 (누적 시간) = CPU를 점유했던 시간의 누적값
   * ps : long-format
-
 ![Screenshot from 2022-02-23 09-07-09](https://user-images.githubusercontent.com/58837749/155240896-b96b147d-a116-40d1-a396-38431a038d89.png)
 
     - F : 프로세스 플래그
@@ -63,11 +62,9 @@ last_modified_at: 2022-02-23
       + ps axf : BSD
       + ps -e --forest : UNIX SysV 
     - man ps 명령으로 확인 가능 
-
 ![Screenshot from 2022-02-23 09-13-17](https://user-images.githubusercontent.com/58837749/155241480-80855ad3-614d-478d-a965-2ba95643c84c.png)
 
   * Practice : ps
-
 ![Screenshot from 2022-02-23 09-15-30](https://user-images.githubusercontent.com/58837749/155241754-0aff5636-e49b-433f-84c9-32ddb978575b.png)
 
     - grep : 어떤 단어가 들어간 행만 뽑아줘
@@ -84,7 +81,6 @@ last_modified_at: 2022-02-23
     - 실제로는 프로세스에 시그널을 "send"하는 기능
     - 시그널에 따라서 프로세스를 continue하거나 stop등 다양한 기능이 존재
     - 사용 가능한 signal 종류는 kill -l 명령으로 확인 가능
-
 ![Screenshot from 2022-02-23 09-21-56](https://user-images.githubusercontent.com/58837749/155242239-177a031a-3cb9-4679-881a-38f4f7bf62b2.png)
 
   * kill UNIX signals
@@ -103,7 +99,6 @@ last_modified_at: 2022-02-23
 |kill -9 13012|PID 13012 프로세스에 9번 시그널(SIGKILL)을 보냄|
 
   * Practice : ps, kill
-
 ![Screenshot from 2022-02-23 09-32-05](https://user-images.githubusercontent.com/58837749/155243192-8e5ab57c-0616-4a1c-82c7-fb82fbfbf9ec.png)
 
 ![Screenshot from 2022-02-23 09-32-45](https://user-images.githubusercontent.com/58837749/155243194-53472821-3e68-4c83-928e-2a4a32b3a379.png)
@@ -122,7 +117,6 @@ last_modified_at: 2022-02-23
     - SIGTSTP(Signal - Temporary Stop) 시그널을 foreground 프로세스에 전달
     - 작동: 잠시 정지 → background에 stopped 상태로 내려가게 됨
     - fore/back-ground process 설명시 session, controlling terminal 단어가 언급되어야 함
-    - 
 
 2. job control : session,controlling terminal
   * 세션(session)
@@ -151,7 +145,6 @@ last_modified_at: 2022-02-23
     -  Session에서 제어 터미널을 갖지 않는 경우
       + ps의 TTY 필드에 ?로 나타난다.
       + ps -e \| less
-
 ![Screenshot from 2022-02-23 10-00-51](https://user-images.githubusercontent.com/58837749/155245564-c5786608-cbac-4724-b3d8-291ab50cea88.png)
 
     - [내부에서 만들어진 공간 → background process] & session → ~제어터미널 → 격리 / 분리된 공간
