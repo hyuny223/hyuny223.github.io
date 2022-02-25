@@ -74,6 +74,7 @@ last_modified_at: 2022-02-24
 		- wl : wireless lan
 		- ww : wireless wan
 	* following device name
+	
 	|o<index>|on-board device index number|
 	|s<slot>[f<function>][d<dev_id>]|hotplug slot index nuber|
 	|x<MAC>|MAC address|
