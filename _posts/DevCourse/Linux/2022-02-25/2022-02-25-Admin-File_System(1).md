@@ -1,14 +1,14 @@
 ---
-title: "[Linux Day5] File System"
+title: "[Linux Day5] Admin #8 - File System"
 categories: Linux
-tag: [Linux]
+tag: [Linux,admin]
 
 toc: true
 toc_sticky: true
 toc_label : 목차
 
 
-date: 2022-02-25
+date: 2022-02-25 00:00:01
 last_modified_at: 2022-02-25
 ---
 <br>
