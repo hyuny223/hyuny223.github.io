@@ -1,7 +1,7 @@
 ---
 title: "[Linux Day4] Package Manager"
 categories: Linux
-tag: [Linu]
+tag: [Linux,package]
 
 toc: true
 toc_sticky: true

@@ -1,14 +1,14 @@
 ---
 title: "[Linux Day4] Network Configuration: NetworkManager"
 categories: Linux
-tag: [Linu]
+tag: [Linux]
 
 toc: true
 toc_sticky: true
 toc_label : 목차
 
 
-date: 2022-02-24
+date: 2022-02-24 00:00:04
 last_modified_at: 2022-02-24
 ---
 <br>

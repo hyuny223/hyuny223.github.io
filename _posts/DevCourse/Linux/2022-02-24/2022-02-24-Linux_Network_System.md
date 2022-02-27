@@ -1,7 +1,7 @@
 ---
 title: "[Linux Day4] Linux network system"
 categories: Linux
-tag: [Linu]
+tag: [Linux]
 
 toc: true
 toc_sticky: true
