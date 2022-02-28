@@ -1,7 +1,7 @@
 ---
 title: "ROS"
 layout: archive
-permalink: categories/devCourse/ROS
+permalink: /categories/devCourse/ROS
 author_profile: true
 sidebar_main: true
 ---

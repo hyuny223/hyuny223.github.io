@@ -1,7 +1,7 @@
 ---
 title: "Linux"
 layout: archive
-permalink: categories/devCourse/Linux
+permalink: /categories/devCourse/Linux
 author_profile: true
 sidebar_main: true
 ---

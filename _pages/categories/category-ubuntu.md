@@ -1,7 +1,7 @@
 ---
 title: "나의 우분투 세팅"
 layout: archive
-permalink: categories/ubuntu
+permalink: /categories/ubuntu
 author_profile: true
 sidebar_main: true
 ---
