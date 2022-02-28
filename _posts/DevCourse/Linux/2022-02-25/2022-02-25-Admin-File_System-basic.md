@@ -1,7 +1,7 @@
 ---
 title: "[Linux Day5] Admin #8 - File System(basic)"
 categories: Linux
-tag: [Linux]
+tag: [Linux,admin]
 
 toc: true
 toc_sticky: true
