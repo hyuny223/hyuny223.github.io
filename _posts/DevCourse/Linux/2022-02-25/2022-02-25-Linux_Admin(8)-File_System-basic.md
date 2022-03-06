@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day5] Admin #8 - File System(basic)"
+title: "[Linux Day5] Linux Admin #8 - File System(basic)"
 categories: Linux
 tag: [Linux,admin]
 

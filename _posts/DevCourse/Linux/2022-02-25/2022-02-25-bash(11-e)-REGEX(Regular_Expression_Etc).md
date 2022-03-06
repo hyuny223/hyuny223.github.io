@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day5] bash Etc"
+title: "[Linux Day5] bash 기초 #11-e : Etc"
 categories: Linux
 tag: [Linux]
 
@@ -8,7 +8,7 @@ toc_sticky: true
 toc_label : 목차
 
 
-date: 2022-02-25 00:00:06
+date: 2022-02-25 00:00:07
 last_modified_at: 2022-02-26
 ---
 <br>

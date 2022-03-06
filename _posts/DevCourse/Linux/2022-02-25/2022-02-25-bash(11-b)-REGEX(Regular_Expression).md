@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day5] bash 기초 #2"
+title: "[Linux Day5] bash 기초 #2 : REGEX(regular expression)"
 categories: Linux
 tag: [Linux]
 
