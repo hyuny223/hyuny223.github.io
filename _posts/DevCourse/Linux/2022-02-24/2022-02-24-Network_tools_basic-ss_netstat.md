@@ -45,6 +45,11 @@ last_modified_at: 2022-03-06
         ``` 
 
 ## 3. ss
+* socket
+    - 프로토콜 & ip address & port → socekt
+    - HTTP가 단방향 소통이라면, socket은 양방향 소통이다.
+        + HTTP의 client와 server의 관계는 service식이라면, socket은 publisher, subscriber와 비슷 
+    - 통신을 위한 인터페이스(즉 구조체) → 데이터 전달(통신)
 * socket statistics
 
     ```bash
