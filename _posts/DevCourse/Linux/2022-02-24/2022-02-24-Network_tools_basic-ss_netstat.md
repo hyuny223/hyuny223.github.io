@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] Linux Admin #6 : Network tools(basic)"
+title: "[Linux Day4] Linux Admin #6(1/3) : Network tools(basic)"
 categories: Linux
 tag: [Linux]
 
