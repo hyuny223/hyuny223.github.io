@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] Package Manager"
+title: "[Linux Day4] Linux_Admin #6-3 - Network tools(ssh,curl,wget,nc)"
 categories: Linux
 tag: [Linux]
 

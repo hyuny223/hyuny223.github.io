@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] Linux Admin #6(1/3) : Network tools(basic)"
+title: "[Linux Day4] Linux_Admin #6-1 - Network tools(ss,netstat)"
 categories: Linux
 tag: [Linux]
 

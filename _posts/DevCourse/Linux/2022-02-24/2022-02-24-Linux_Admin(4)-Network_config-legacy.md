@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] Ubuntu Network config - legacy"
+title: "[Linux Day4] Linux_Admin #4 - Network config : legacy"
 categories: Linux
 tag: [Linux]
 

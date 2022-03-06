@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] Linux network system"
+title: "[Linux Day4] Linux_Admin #3 - Linux network system"
 categories: Linux
 tag: [Linux]
 

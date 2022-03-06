@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day5] Linux Admin #8 - File System(1)"
+title: "[Linux Day5] Linux Admin #8-2 - File System(makeFS)"
 categories: Linux
 tag: [Linux]
 

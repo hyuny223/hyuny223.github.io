@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] APT"
+title: "[Linux Day4] Linux_Admin #2 - APT"
 categories: Linux
 tag: [Linux]
 

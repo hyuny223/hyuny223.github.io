@@ -1,7 +1,7 @@
 ---
-title: "[Linux Day4] Package Manager"
+title: "[Linux Day4] Linux_Admin #1 - Package Manager"
 categories: Linux
-tag: [Linux,package]
+tag: [Linux]
 
 toc: true
 toc_sticky: true

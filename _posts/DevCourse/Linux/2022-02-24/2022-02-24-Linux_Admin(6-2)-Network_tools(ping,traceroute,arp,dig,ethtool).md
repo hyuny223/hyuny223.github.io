@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] Linux Admin #6(2/3) : Network tools(basic)"
+title: "[Linux Day4] Linux_Admin #6-2 -  Network tools(ping,traeroute,arp,dig,ethtool)"
 categories: Linux
 tag: [Linux]
 

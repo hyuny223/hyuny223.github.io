@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day4] Package Manager"
+title: "[Linux Day4] Linux_Admin #7 - Network Configuration(wireless network)"
 categories: Linux
 tag: [Linux]
 
