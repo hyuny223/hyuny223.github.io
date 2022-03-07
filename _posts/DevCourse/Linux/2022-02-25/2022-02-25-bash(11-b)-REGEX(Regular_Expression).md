@@ -19,7 +19,6 @@ last_modified_at: 2022-02-26
 1. POSIX REGEX : meta char.
 
 	|문자지정|.|임의의 문자 한 개를 의미|
-	|---|---|---|
 	|반복지정|?|선행문자패턴이 0개 혹은 1개 나타납니다 - ERE|
 	||+|선행문자패턴이 1개 이상 반복됩니다 - ERE|
 	||*|선행문자패턴이 0개 이상 반복됩니다|
@@ -81,7 +80,7 @@ last_modified_at: 2022-02-26
 			+ {1,}는 무엇일까?
 4. Quantifiter : BRE vs ERE
 	* grep은 기본값으로 BRE로 작동
-		- * 수량자만 바로 사용 가능(얘만 BRE)
+		- \* 수량자만 바로 사용 가능(얘만 BRE)
 		- +, ?, {} 패턴은 \를 앞에 더해주어야 한다(얘는 ERE)
 		- BRE tool & backslash → ERE(BRE tool에서 ERE를 사용하기 위해서는 \가 필요조건)
 		- ERE에서는 BRE든, ERE든 그냥 사용하면 됨
