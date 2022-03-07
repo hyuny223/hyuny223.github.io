@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day5] Admin #10 - udisksctl"
+title: "[Linux Day5] Admin #9 - PCB"
 categories: Linux
 tag: [Linux,admin]
 
