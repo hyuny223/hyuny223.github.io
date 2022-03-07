@@ -1,5 +1,5 @@
 ---
-title: "[Linux Day5] Admin #11 - systemd(systemctl)"
+title: "[Linux Day5] Admin #11-3 - systemd(systemctl)"
 categories: Linux
 tag: [Linux]
 
