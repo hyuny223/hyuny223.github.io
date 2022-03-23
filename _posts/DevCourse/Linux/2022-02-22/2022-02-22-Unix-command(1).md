@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day2] Unix command(1)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux,command]
 
 toc: true

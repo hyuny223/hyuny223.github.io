@@ -16,14 +16,20 @@
         <span class="nav__sub-title">devCourese</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Linux" %}
-                        <li><a href="/categories/devCourse/Linux" class="">리눅스(Linux) ({{category[1].size}})</a></li>
+                    {% if category[0] == "dev_Linux" %}
+                        <li><a href="/categories/devCourse/dev_Linux" class="">리눅스(Linux) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}  
                 
                 {% for category in site.categories %}
-                    {% if category[0] == "ROS" %}
-                        <li><a href="/categories/devCourse/ROS" class="">ROS(melodic) ({{category[1].size}})</a></li>
+                    {% if category[0] == "dev_ROS" %}
+                        <li><a href="/categories/devCourse/dev_ROS" class="">ROS(melodic) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+
+                {% for category in site.categories %}
+                    {% if category[0] == "dev_openCV" %}
+                        <li><a href="/categories/devCourse/dev_openCV" class="">openCV ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

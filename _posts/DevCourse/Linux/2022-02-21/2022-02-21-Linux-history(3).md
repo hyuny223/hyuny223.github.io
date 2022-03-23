@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day1] 리눅스 역사(3)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true
