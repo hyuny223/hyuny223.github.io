@@ -1,7 +1,7 @@
 ---
 title: "[Github 블로그] toc 설정"
 categories: Blog
-tag: [Blog, category]
+tag: [Blog]
 
 toc: true
 toc_sticky: true

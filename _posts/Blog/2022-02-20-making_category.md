@@ -1,7 +1,7 @@
 ---
 title: "[Github 블로그] Category의 post layout"
 categories: Blog
-tag: [Blog, category]
+tag: [Blog]
 toc: true
 toc_sticky: true
 toc_label : 목차
