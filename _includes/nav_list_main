@@ -28,8 +28,8 @@
                 {% endfor %}
 
                 {% for category in site.categories %}
-                    {% if category[0] == "dev_openCV" %}
-                        <li><a href="/categories/devCourse/dev_openCV" class="">openCV ({{category[1].size}})</a></li>
+                    {% if category[0] == "dev_OpenCV" %}
+                        <li><a href="/categories/devCourse/dev_openCV" class="">OpenCV ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
