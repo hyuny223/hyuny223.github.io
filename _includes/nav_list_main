@@ -29,7 +29,7 @@
 
                 {% for category in site.categories %}
                     {% if category[0] == "dev_OpenCV" %}
-                        <li><a href="/categories/devCourse/dev_openCV" class="">OpenCV ({{category[1].size}})</a></li>
+                        <li><a href="/categories/devCourse/dev_OpenCV" class="">OpenCV ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
