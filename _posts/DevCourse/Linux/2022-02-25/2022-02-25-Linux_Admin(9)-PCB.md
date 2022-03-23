@@ -1,7 +1,7 @@
 ---
 title: "[Linux Day5] Admin #9 - PCB"
 categories: dev_Linux
-tag: [Linux,admin]
+tag: [Linux]
 
 toc: true
 toc_sticky: true
