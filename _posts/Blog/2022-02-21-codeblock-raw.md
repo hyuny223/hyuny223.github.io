@@ -1,7 +1,7 @@
 ---
 title: "[Github 블로그] 코드블럭 {% raw %}"
 categories: Blog
-tag: [Blog, codeblock]
+tag: [Blog]
 
 toc: true
 toc_sticky: true

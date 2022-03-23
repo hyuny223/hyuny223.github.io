@@ -1,7 +1,7 @@
 ---
 title: "[Github 블로그] 깃허브 문법"
 categories: Blog
-tag: [Blog, category, github]
+tag: [Blog]
 
 toc: true
 toc_sticky: true
