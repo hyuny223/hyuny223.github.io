@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day4] Linux_Admin #6-3 - Network tools(ssh,curl,wget,nc)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

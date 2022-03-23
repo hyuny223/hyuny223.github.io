@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] Admin #11-3 - systemd(systemctl)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

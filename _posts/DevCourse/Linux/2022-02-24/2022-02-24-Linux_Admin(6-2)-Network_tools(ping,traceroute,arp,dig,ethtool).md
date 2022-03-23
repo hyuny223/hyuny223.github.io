@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day4] Linux_Admin #6-2 -  Network tools(ping,traeroute,arp,dig,ethtool)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

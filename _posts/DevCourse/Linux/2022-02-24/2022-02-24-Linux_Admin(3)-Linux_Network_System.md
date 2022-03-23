@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day4] Linux_Admin #3 - Linux network system"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

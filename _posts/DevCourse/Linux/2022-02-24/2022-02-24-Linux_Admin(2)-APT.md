@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day4] Linux_Admin #2 - APT"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

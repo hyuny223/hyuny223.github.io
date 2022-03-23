@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] Admin #12 - journal log"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

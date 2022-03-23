@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day4] Linux_Admin #6-1 - Network tools(ss,netstat)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

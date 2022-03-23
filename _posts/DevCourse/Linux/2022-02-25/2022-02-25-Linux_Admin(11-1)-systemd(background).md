@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] Admin #11-1 - systemd(background)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

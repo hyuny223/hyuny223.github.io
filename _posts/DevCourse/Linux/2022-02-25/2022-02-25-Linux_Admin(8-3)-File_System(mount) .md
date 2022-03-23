@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] Linux Admin #8-3 - File System(mount)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

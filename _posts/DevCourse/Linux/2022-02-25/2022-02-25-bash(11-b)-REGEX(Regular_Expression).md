@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] bash 기초 #11-b : REGEX(regular expression)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

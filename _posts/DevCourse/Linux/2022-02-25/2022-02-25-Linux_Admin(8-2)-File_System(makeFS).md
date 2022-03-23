@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] Linux Admin #8-2 - File System(makeFS)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

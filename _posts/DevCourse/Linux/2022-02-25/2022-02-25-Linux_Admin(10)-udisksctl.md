@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] Admin #10 - udisksctl"
-categories: Linux
+categories: dev_Linux
 tag: [Linux,admin]
 
 toc: true

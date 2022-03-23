@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day5] Linux Admin #8-4 - File System(fstab)"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true

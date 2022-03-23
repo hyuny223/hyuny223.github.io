@@ -1,6 +1,6 @@
 ---
 title: "[Linux Day4] Linux_Admin #4 - Network config : legacy"
-categories: Linux
+categories: dev_Linux
 tag: [Linux]
 
 toc: true
