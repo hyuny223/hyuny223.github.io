@@ -34,6 +34,15 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">TURTLEBOT3</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Turtlebot3" %}
+                        <li><a href="/categories/turtlebot3" class="">터틀봇3(turtlebot3) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}  
+            </ul>
+
         <span class="nav__sub-title">C++</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
